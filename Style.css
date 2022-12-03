@@ -1,12 +1,12 @@
 
 body{
+	width: 100%;
     background-image: url(/7947194.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-
+/*Home style*/
 #teksti{
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,82 +53,44 @@ body{
     margin-left: 2%;
 }
 
-/*Login Form Style*/
+/*Login style*/
 
-.main-content{
-	width: 50%;
-	border-radius: 20px;
-	box-shadow: 0 5px 5px rgba(0,0,0,.4);
-	margin: 5em auto;
-	display: flex;
-}
-.company__info{
-	background-color: #008080;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	color: #fff;
-}
-.fa-android{
-	font-size:3em;
-}
-@media screen and (max-width: 640px) {
-	.main-content{width: 90%;}
-	.company__info{
-		display: none;
-	}
-	.login_form{
-		border-top-left-radius:20px;
-		border-bottom-left-radius:20px;
-	}
-}
-@media screen and (min-width: 642px) and (max-width:800px){
-	.main-content{width: 70%;}
-}
-.row > h2{
-	color:#008080;
-}
-.login_form{
-	background-color: #fff;
-	border-top-right-radius:20px;
-	border-bottom-right-radius:20px;
-	border-top:1px solid #ccc;
-	border-right:1px solid #ccc;
-}
-form{
-	padding: 0 2em;
-}
-.form__input{
+.login{
 	width: 100%;
-	border:0px solid transparent;
-	border-radius: 0;
-	border-bottom: 1px solid #aaa;
-	padding: 1em .5em .5em;
-	padding-left: 2em;
-	outline:none;
-	margin:1.5em auto;
-	transition: all .5s ease;
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	
+
 }
-.form__input:focus{
-	border-bottom-color: #008080;
-	box-shadow: 0 0 5px rgba(0,80,80,.4); 
-	border-radius: 4px;
+#formaLogin{
+	position: relative;
+	width: 400px;
+	left: 10%;
+	top: 3%;
+	align-items: center;
+	color: white;
+	opacity: 85%;
+
 }
-.btn{
-	transition: all .5s ease;
-	width: 70%;
-	border-radius: 30px;
-	color:#008080;
-	font-weight: 600;
-	background-color: #fff;
-	border: 1px solid #008080;
-	margin-top: 1.5em;
-	margin-bottom: 1em;
-}
-.btn:hover, .btn:focus{
-	background-color: #008080;
-	color:#fff;
+#formaLogin h2{
+	text-align: center;
 }
 
+#formaLogin input{
+	text-align: center;
+	width: 450px;
+	height: 50px;
+}
+#formaLogin button{
+	width: 100px;
+	height: 40px;
+	margin-left: 180px;
+	background-color: rgba(16, 170, 142, 0.942);
+	
+} 
+
+#astroLogin{
+ position: relative;
+ left: 15%;
+}
