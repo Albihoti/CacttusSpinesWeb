@@ -1,7 +1,7 @@
 
 body{
 	width: 100%;
-    background-image: url(/7947194.gif);
+    background-image: url(/img/7947194.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -55,7 +55,7 @@ body{
 
 /*Login style*/
 
-.login{
+#login{
 	width: 100%;
 	position: relative;
 	margin-top: 10%;
@@ -83,14 +83,37 @@ body{
 	height: 50px;
 }
 #formaLogin button{
-	width: 100px;
-	height: 40px;
-	margin-left: 180px;
-	background-color: rgba(16, 170, 142, 0.942);
+	width: 130px;
+	height: 50px;
+	margin-left: 160px;
+    margin-top: 20px;
+	background-color: rgba(9, 242, 145, 0.942);
+    border-radius: 5px;
 	
 } 
 
 #astroLogin{
  position: relative;
  left: 15%;
+}
+
+.register-check{
+    text-align: center;
+}
+
+#register{
+    
+    margin-top: 9%
+}
+
+#linkuHomeR{
+    position: relative;
+    top: 30px;
+  
+    margin-left: 60px;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+font-weight: 600;
+font-size: 22px;
 }
