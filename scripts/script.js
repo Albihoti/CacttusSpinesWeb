@@ -1,34 +1,52 @@
 
 
 
-// function login(){
-     
-// const userName = document.getElementById("exampleInputEmail1").value
-// const password = document.getElementById("exampleInputPassword1").value
-// const rawBody = JSON.stringify({
-//   "id":"111",
-//   "username":"R111e2oan",
-//   "email":"alb111i3472@te1st.com",
-//   "password":"alo"
-// })
-// const configMethod= { 
-//   method:'POST',
-//   headers:{'Content-Type':'application/stream+json','Accept':'application/json' },
-//   mode:'no-cors',
-//   body:rawBody
-// }
+function register(){
+     console.log("akjdkajlsjdjsa")
 
-//   fetch('http://localhost:8080/perdoruesi/register',configMethod)
-//         }
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
 
+var raw = JSON.stringify({
+  "id": 12312312111233,
+  "username": "RX11XXXX2e222oan2a",
+  "email": "tXesXXt@te222st.com",
+  "password": "al222o"
+});
 
-// function login(){
-//   fetch('http://localhost:8080/hello', {method:'GET', headers:
-//   {'Content-type':'application/json'}, mode:'no-cors'}).then(response => {
-//   console.log(typeof response)
-// console.log(response)}).then(data => {
-//   console.log(data)
-//   console.log(typeof data)
-//  })
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
 
-// }
+fetch("http://localhost:8080/rest/perdoruesi/register", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+}
+
+function login(){
+    const userName = document.getElementById("exampleInputEmail1").value
+    const password = document.getElementById("exampleInputPassword1").value
+    var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "username": userName,
+  "password": password
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://localhost:8080/rest/login", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+}
