@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User</title>
     <link href="/style/userStyle.css" rel="stylesheet"/>
+    <script src="/scripts/script.js"></script>
 
 </head>
-<body>
+<body onload="getProfile()">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     
@@ -19,14 +20,14 @@
       
 <div class="card">
   <img src="img/unnamed.jpeg" alt="John">
-  <h1>Albi Hoti</h1>
-  <p class="title">Software Engineer</p>
+  <h1 id="userName">Albi Hoti</h1>
+  <p class="title" id="email">Software Engineer</p>
   <p>Cacttus Education</p>
   <a href="#"><i class="fa fa-dribbble"></i></a>
   <a href="#"><i class="fa fa-twitter"></i></a>
   <a href="#"><i class="fa fa-linkedin"></i></a>
   <a href="#"><i class="fa fa-facebook"></i></a>
-  <p><button>Contact</button></p>
+  <p><button onclick="logout()">Log out</button></p>
 </div>
     
 </body>
