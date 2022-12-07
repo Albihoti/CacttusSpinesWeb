@@ -117,11 +117,10 @@ body {
   margin-left: 10px;
 }
 
-#logOutLink{
-    display: none;
+#logOutLink {
+  display: none;
 }
 
-#profileLink{
-    display: none;
-
+#profileLink {
+  display: none;
 }

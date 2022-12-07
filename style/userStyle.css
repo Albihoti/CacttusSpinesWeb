@@ -1,80 +1,78 @@
-
-body{
-    background-image: url("/img/7947194.gif");
+body {
+  background-image: url("/img/7947194.gif");
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 350px;
-    height: 450px;
-    margin: auto;
-    margin-top: 10%;
-    text-align: center;
-    background-color: #000;
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: rgb(249, 249, 249);
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  height: 450px;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 
-  img{
-    margin-top: 10%;
-    width: 140px;
-    height: 140px;
-    
-    border-radius: 50%;
-  }
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
-  #linkuHome{
-    font-weight: 600;
-    position: relative;
-    top: 30px;
-   left: 100px;
-  }
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
-  #editButoni{
-    background-color: rgb(22, 175, 124);
-    width: 120px;
-    border: 1px solid black;
-    border-radius: 10px;
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  #linkuLogout{
-    position: absolute;
-    right: 100px;
-    top: 30px;
-    font-weight: 600;
-    top: 30px;
-   
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(249, 249, 249);
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+img {
+  margin-top: 10%;
+  width: 140px;
+  height: 140px;
+
+  border-radius: 50%;
+}
+
+#linkuHome {
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+
+#editButoni {
+  background-color: rgb(22, 175, 124);
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#linkuLogout {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  font-weight: 600;
+  top: 30px;
 }
