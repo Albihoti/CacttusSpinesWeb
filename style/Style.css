@@ -1,119 +1,127 @@
-
-body{
-	width: 100%;
-    background-image: url(/img/7947194.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  width: 100%;
+  background-image: url(/img/7947194.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Home style*/
-#teksti{
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-style:initial;
-    margin-top: 37%;
-   
-    color: white;  
+#teksti {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-style: initial;
+  margin-top: 37%;
+
+  color: white;
 }
 
-
-#fotoja{
-    margin-top: 15%;
+#fotoja {
+  margin-top: 15%;
 }
 
-
-.navbar{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-
+.navbar {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
-
-
-.navbar ul{
-    margin-right: 10%;
-    color: white;
+.navbar ul {
+  margin-right: 10%;
+  color: white;
 }
-.navbar li{
-    padding-left: 40px;
+.navbar li {
+  padding-left: 40px;
 }
-.navbar a{
-    padding: 10px 20px 10px 20px;
-    font-weight: 600;
-    color: white;
-    font-size: 22px;
+.navbar a {
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+  color: white;
+  font-size: 22px;
 }
 
-.navbar-brand{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    margin-left: 2%;
+.navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 2%;
 }
 
 /*Login style*/
 
-#login{
-	width: 100%;
-	position: relative;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	
-
+#login {
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-#formaLogin{
-	position: relative;
-	width: 400px;
-	left: 10%;
-	top: 3%;
-	align-items: center;
-	color: white;
-	opacity: 85%;
-
+#formaLogin {
+  position: relative;
+  width: 400px;
+  left: 10%;
+  top: 3%;
+  align-items: center;
+  color: white;
+  opacity: 85%;
 }
-#formaLogin h2{
-	text-align: center;
+#formaLogin h2 {
+  text-align: center;
 }
 
-#formaLogin input{
-	text-align: center;
-	width: 450px;
-	height: 50px;
+#formaLogin input {
+  text-align: center;
+  width: 450px;
+  height: 50px;
 }
-#formaLogin button{
-	width: 130px;
-	height: 50px;
-	margin-left: 160px;
-    margin-top: 20px;
-	background-color: rgba(9, 242, 145, 0.942);
-    border-radius: 5px;
-	
-} 
-
-#astroLogin{
- position: relative;
- left: 15%;
+#formaLogin button {
+  width: 130px;
+  height: 50px;
+  margin-left: 160px;
+  margin-top: 20px;
+  background-color: rgba(9, 242, 145, 0.942);
+  border-radius: 5px;
 }
 
-.register-check{
-    text-align: center;
+#astroLogin {
+  position: relative;
+  left: 15%;
 }
 
-#register{
-    
-    margin-top: 9%
+.register-check {
+  text-align: center;
 }
 
-#linkuHomeR{
-    position: relative;
-    top: 30px;
-  
-    margin-left: 60px;
-text-decoration: none;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: white;
-font-weight: 600;
-font-size: 22px;
+#register {
+  margin-top: 9%;
+}
+#goToRegister {
+  color: blue;
+}
+
+#linkuHomeR {
+  position: relative;
+  top: 30px;
+  margin-left: 60px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#information {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#logOutLink{
+    display: none;
+}
+
+#profileLink{
+    display: none;
+
 }
